@@ -1,0 +1,27 @@
+.challan{
+    width: 100%;
+    /* height: calc(100vh - 7rem); */
+    /* background-color: red; */
+    padding-bottom: 15px;
+    /* padding-top: 3rem; */
+    background-color: #f0f0f0;
+    flex-direction: column;
+    justify-content: left!important;
+    padding: 0!important;
+    /* height: 100vh; */
+    /* overflow-y: scroll; */
+    /* scroll-behavior: smooth; */
+}
+
+.challan::-webkit-scrollbar{
+    display: none;
+}
+
+.challan section{
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    width: 100%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    justify-content: space-between;
+}

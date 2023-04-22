@@ -1,0 +1,48 @@
+.viewuser{
+    width: 100%;
+    /* height: calc(100vh - 7rem); */
+    /* min-height: 100vh; */
+    background-color: #f0f0f0;
+    padding-bottom: 15px;
+    /* padding-top: 3rem; */
+    /* height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth; */
+}
+
+.viewuser::-webkit-scrollbar{
+    display: none;
+}
+
+.viewuser h3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 2.5%;
+}
+
+
+.button{
+    border-radius: 0.25em;
+    /* width: 95%; */
+    border: none;
+    outline: none;
+    background-color: #522398;
+    border: 2px solid #522398;
+    color: white;
+    padding: 0rem 1.75rem;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    transition: all ease 0.5s;
+    float: right;
+    margin-right: 2.5%;
+}
+
+.button:active,
+.button:hover{
+    box-shadow: 1px 2px 2px 1px #00000016;
+    transform: scale(1.05);
+}

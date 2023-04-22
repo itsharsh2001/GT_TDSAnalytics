@@ -1,0 +1,96 @@
+.masters{
+    width: 100%;
+    /* height: calc(100vh - 7rem); */
+    /* min-height: 100vh; */
+    background-color: #f0f0f0;
+    padding-bottom: 15px;
+    padding-top: 3rem;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.masters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.headingdiv{
+    width: 95%!important;
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 2.5%; */
+    padding: 1rem 2.5%!important;
+    border-radius: 1rem;
+    background-color: rgb(220, 213, 229);
+    margin-left: 2.5%!important;
+    margin-right: 2.5%!important;
+    margin-bottom: 3rem;
+}
+
+.headingdiv h1{
+    text-align: center;
+    font-size: 3.5rem;
+    /* width: 100%!important; */
+    text-align: left!important;
+}
+
+.masters h1{
+    text-align: center;
+    font-size: 3.5rem;
+    /* margin-bottom: 3rem; */
+}
+
+.masters h3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2.5%;
+}
+
+.masters section{
+    /* border: 1px solid red; */
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 100%;
+    /* height: 450px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    justify-content: space-between;
+}
+/* 
+.masters section span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 98%;
+    border: 1px solid yellow;
+    background-color: yellow;
+    box-shadow: 2px 4px 4px 2px #00000016;
+
+    font-size: 3rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.masters section span:active,
+.masters section span:hover{
+    color: yellow;
+    background-color: white;
+    box-shadow: none;
+} */
+
+.masters>span{
+
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    width: 100%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    justify-content: space-between;
+}

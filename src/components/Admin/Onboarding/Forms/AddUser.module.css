@@ -1,0 +1,151 @@
+.adduser{
+    display: block;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 3.5rem;
+    /* border: 2px solid black; */
+    /* height: 400px; */
+    /* overflow-y: scroll; */
+    background-color: white;
+    box-shadow: 2px 4px 4px 2px #00000016;
+    /* margin-bottom: 2rem; */
+    padding: 2rem;
+    
+    --shadow-color: 0deg 0% 59%;
+    box-shadow: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.34),
+    1.5px 2.9px 3.7px -0.4px hsl(var(--shadow-color) / 0.34),
+    2.7px 5.4px 6.8px -0.7px hsl(var(--shadow-color) / 0.34),
+    4.5px 8.9px 11.2px -1.1px hsl(var(--shadow-color) / 0.34),
+    7.1px 14.3px 18px -1.4px hsl(var(--shadow-color) / 0.34),
+    11.2px 22.3px 28.1px -1.8px hsl(var(--shadow-color) / 0.34),
+    17px 33.9px 42.7px -2.1px hsl(var(--shadow-color) / 0.34),
+    25px 50px 62.9px -2.5px hsl(var(--shadow-color) / 0.34);
+    border-radius: 2rem;
+    /* height: 100vh;
+    overflow-y: scroll; */
+}
+
+.adduser h2{
+    margin-bottom: 2.5rem;
+}
+
+.adduser section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.adduser section div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.adduser section div button{
+    border-radius: 0.25em;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: #522398;
+    border: 2px solid #522398;
+    color: white;
+    /* padding: 0rem 1.75rem; */
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    transition: all ease 0.5s;
+}
+
+.adduser section div button:hover,
+.adduser section div button:active{
+    box-shadow: 1px 2px 2px 1px #00000016;
+    transform: scale(1.05);
+}
+
+
+.button{
+    border-radius: 0.25em;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: #522398;
+    border: 2px solid #522398;
+    color: white;
+    /* padding: 0rem 1.75rem; */
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    transition: all ease 0.5s;
+}
+
+.button:hover,
+.button:active{
+    box-shadow: 1px 2px 2px 1px #00000016;
+    transform: scale(1.05);
+}
+
+.deleteicon{
+    color: red;
+    font-size: 3rem!important;
+}
+
+
+
+.adduser section div span{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+}
+
+
+.adduser section div span p{
+    width: 90%;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.adduser section div span div{
+    display: flex;
+    flex-direction: row;
+}
+
+.adduser section div span div span{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.adduser section div span div span input{
+    width: 25px;
+    /* height: 25px; */
+    box-shadow: none;
+    /* background-color: red; */
+}
+
+.adduser section div span label{
+    width: 90%;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.adduser section div span input,
+.adduser section div span select{
+    width: 90%;
+    background-color: rgb(212, 255, 212);
+    border: none;
+    outline: none;
+    box-shadow: 2px 4px 4px 2px #00000016;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}

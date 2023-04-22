@@ -1,0 +1,95 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7rem;
+    /* padding-top: 15px; */
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    background-color: black;
+}
+
+.nav img{
+    height: 80%;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 55%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 33.33%; */
+    height: calc(100% - 4px);
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    margin-right: 2rem;
+    /* border: 2px solid gray; */
+    /* transition: all ease 0.5s; */
+}
+
+.nav ul li:active,
+.nav ul li:hover{
+    border-bottom: 4px solid #522398;
+    height: calc(100% - 0px);
+    padding-top: 4px;
+}
+
+.expire{
+    display: flex;
+    align-items: center;
+    width: 12%;
+    height: 100%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.user{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 2rem; */
+    /* font-weight: 400; */
+    /* color: white; */
+    /* border: 2px solid gray; */
+}
+
+.user div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-evenly;
+    color: white;
+    overflow-x: hidden;
+    font-size: 1.5rem;
+}
+
+.user div p{
+    color: #522398;
+    margin: 0;
+}
+
+.user img{
+    height: 80%;
+    width: 60px;
+    border-radius: 50%;
+}
